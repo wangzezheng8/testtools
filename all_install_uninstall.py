@@ -42,7 +42,6 @@ def uninstall(deviceslist):
 def run():
     try:
         data = get_deviceid()
-        print()
         if not data:
             pass
         else:
